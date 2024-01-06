@@ -3,3 +3,8 @@ git config --global user.name "Name Surname"
 git config --global user.email "Email Address"
 git config --global core.editor "Editor Name"
 
+QB
+yaren@yaren-MacBook-Pro project4 % ls -a hw4
+.               ..              .git            README.md       hwk4
+
+QC
