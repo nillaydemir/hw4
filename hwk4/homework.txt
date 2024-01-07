@@ -1,17 +1,54 @@
 QA
-git config --global user.name "Name Surname"
-git config --global user.email "Email Address"
-git config --global core.editor "Editor Name"
+Input:
+git config --global user.name "Nil Aydemir"
+git config --global user.email "nilaydemir2004@gmail.com"
+git config --global core.editor "IntelliJ IDEA CE"
+git config --list
+
+Output:
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+user.name=Nil Aydemir
+user.email=nilaydemir2004@gmail.com
+core.editor=IntelliJ IDEA CE
+
 
 QB
+Input:
+git clone https://github.com/nillaydemir/hw4.git
+ls
+ls -a hw4/.git
+
+Output:
 yaren@yaren-MacBook-Pro project4 % ls -a hw4
 .               ..              .git            README.md       hwk4
 
 QC
+Input:
 [https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisa
 yar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi](https://github.com/username/repo/blob/main/README.md) 
+Output:
+https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi
 
 GD
+Input:
+Output:
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
