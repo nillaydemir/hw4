@@ -8,3 +8,5 @@ yaren@yaren-MacBook-Pro project4 % ls -a hw4
 .               ..              .git            README.md       hwk4
 
 QC
+[https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisa
+yar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi](https://github.com/username/repo/blob/main/README.md) 
